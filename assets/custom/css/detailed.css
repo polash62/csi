@@ -1,0 +1,13 @@
+.indi-submenu {
+    margin-top: -176px;
+}
+.width-250 {
+    width: 250px;
+}
+.padding-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table td, .table thead tr th .th-inner {
+    min-width: 80px;
+}

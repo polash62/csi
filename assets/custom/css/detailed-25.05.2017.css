@@ -1,0 +1,55 @@
+.page-content {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.detail-tables {
+    display: flex;
+    margin-top: 20px;
+}
+
+.table thead tr th {
+    font-size: 11px;
+}
+
+.table>thead>tr>th {
+    padding: 5px;
+}
+
+.table>thead>tr:nth-child(2)>th {
+    height: 116px;
+    vertical-align: top;
+}
+
+.table>thead>tr:nth-child(3)>th {
+    height: 41px;
+    vertical-align: middle;
+}
+
+.table>thead>tr:first-child>th {
+    vertical-align: middle;
+}
+
+.table {
+    width: 43%;
+}
+.table td, .table th {
+    font-size: 11px;
+}
+.table>tbody>tr>td {
+    height: 77px;
+}
+
+.table-height {
+    max-height: 460px;
+    overflow-y: auto
+}
+
+.image-loader {
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
